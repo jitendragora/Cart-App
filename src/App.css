@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background: #a8a9aa;
+  color: antiquewhite;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.container {
+  background: rgb(49, 62, 78);
+  border-radius: 8px;
+  margin-top: 5px;
+  height: 80vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer {
+  color: rgb(236, 200, 200);
+  background: #a50de0;
+  font-size: 2rem;
+  margin: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+  border-radius: 4px;
+}
+.counters {
+  justify-content: space-around;
+  align-items: center;
+}
+.counters button.reset{
+  color: rgba(165, 13, 63, 0.89);
+  margin: 5px 150px 70px 70px; 
+}
